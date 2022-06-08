@@ -1,0 +1,115 @@
+
+/*Paleta de colores:
+Principal: #eb9972;
+Secundario: #b7464e;
+Terciario: #2d2c49;
+*/
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+background-color: #2d2c49;
+width: 100%;
+
+}
+header {
+    width: 100%;
+}
+nav {
+    width: 100%;
+    display: flex;
+}
+.logo {
+    width: 130px;
+    height:130px;
+    border-radius: 150%;
+}
+main {
+    background-color: #2d2c49;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background-color: aliceblue;
+}  
+.first-card {
+    width: 100%;
+    margin: 5%;
+} 
+.card-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img {
+    width: 80%;
+height: 150px;
+}
+.card-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-title {
+    display: none;
+}
+.card-text {
+    display: none;
+}
+
+footer {
+    background-color:#2d2c49;
+    height: 80px;
+    width: 100%;
+}
+/* min-width: Metodologia Movile First */
+@media screen and (max-width: 500px) {
+    .logoimg {
+        width: 250px;
+        height: 250px;
+    }
+    nav {
+        justify-content: center;
+    }
+    header {
+    height: 250px;
+    }
+    .card {
+        background-color: #2d2c49;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .first-card {
+
+    }
+    .card-title {
+        color: aliceblue;
+        display: contents;
+    }
+    .card-text {
+        color: aliceblue;
+        display: contents;
+    }
+    .start {
+        color: aliceblue;
+    }
+    .card-body {
+        justify-content: center;
+    }
+    .controls {
+        width: 100px;
+        justify-content: center;
+    }
+}
+/* min-width: Metodologia Movile First */
+@media screen and (max-width: 700px) {
+    .controls {
+        width: 150px;
+    }
+}
+
